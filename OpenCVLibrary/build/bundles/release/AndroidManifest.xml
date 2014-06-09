@@ -1,0 +1,5 @@
+<!-- From: file:/D:/ChandraPersonal/Mtech/shabdokhoj/androidstudiows/HelloOpenCV/OpenCVLibrary/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2490" android:versionName="2.4.9" package="org.opencv">
+
+    <uses-sdk android:minSdkVersion="8"/>
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="D:\ChandraPersonal\Mtech\shabdokhoj\androidstudiows\HelloOpenCV\OpenCVLibrary\res" >
+            <file
+                path="D:\ChandraPersonal\Mtech\shabdokhoj\androidstudiows\HelloOpenCV\OpenCVLibrary\res\values\attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="CameraBridgeViewBase" >
+                    <attr
+                        name="show_fps"
+                        format="boolean" />
+                    <attr
+                        name="camera_id"
+                        format="integer" >
+                        <enum
+                            name="any"
+                            value="-1" />
+                        <enum
+                            name="back"
+                            value="99" />
+                        <enum
+                            name="front"
+                            value="98" />
+                    </attr>
+                </declare-styleable>
+            </file>
+        </source>
+        <source path="D:\ChandraPersonal\Mtech\shabdokhoj\androidstudiows\HelloOpenCV\OpenCVLibrary\build\res\rs\debug" />
+        <source path="D:\ChandraPersonal\Mtech\shabdokhoj\androidstudiows\HelloOpenCV\OpenCVLibrary\build\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="D:\ChandraPersonal\Mtech\shabdokhoj\androidstudiows\HelloOpenCV\OpenCVLibrary\build-types\debug\res" />
+    </dataSet>
+
+</merger>
